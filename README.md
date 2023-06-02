@@ -6,7 +6,7 @@ It is a timeseries/forecasting model to predict the traffic states of the variou
 in the Greater Seattle Area based on the data collected through loop detectors deployed.
 
 ### Datasets
-The datasets are in the form pickles that can be downloaded from the page of the challenges
+The datasets are in the form of pickles that can be downloaded from the page of the challenges
 in the above link.
 The train dataset is preprocessed into a dataframe with the timestamps as indices and all the 
 87 segments enlisted under the Loop Detector data as the Columns.
@@ -21,4 +21,4 @@ Jun 1st 2020 to Jun 16th 2020
 The general Deep Learning Models used for Forecasting kind of problems are variants of RNN like LSTM and 
 GRU.
 
-The code inluded here is a Bi-LSTM modek which is an extension of LSTM, whose implementation is already available in the link given
+The code inluded here is a Bi-LSTM model which is an extension of LSTM.
